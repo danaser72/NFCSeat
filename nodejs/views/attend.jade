@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title NFCSeat
+  body
+    -var subject= num
+    -var name=loginedName
+    span(name='loginedName')=name
+    | 님 환영합니다.
+    a(href='attend/logout') 로그아웃
+    table#subject(border='1')
+      thread
+        tr: th 과목명
+      tbody
+        each sub in num
+          tr
+            td
+              a(href="attend/get"+sub.Name)=sub.Name

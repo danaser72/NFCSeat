@@ -1,0 +1,15 @@
+temperature : https://www.kocoafab.cc/tutorial/view/58
+weight : http://blog.naver.com/PostView.nhn?blogId=ubicomputing&logNo=220551634962&parentCategoryNo=&categoryNo=48&viewDate=&isShowPopularPosts=true&from=search
+nfc : 유튜브 참고
+wifi : http://deneb21.tistory.com/269
+http://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/#AT
+http://www.hardcopyworld.com/ngine/aduino/index.php/archives/1257
+종합 : http://blog.naver.com/roboholic84/220588599744
+http://blog.naver.com/damtaja/221008391228
+
+
+웹 통신 : https://kocoafab.cc/make/view/448
+
+
+
+http://webnautes.tistory.com/783

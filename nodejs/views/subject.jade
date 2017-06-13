@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title NFCSeat
+  body
+    -var subject=num
+    -var name=names
+    table#subject(border='1')
+      thread
+        tr: th 과목명
+            th 1
+            th 2
+            th 3
+            th 4
+            th 5
+            th 6
+            th 7
+            th 8
+            th 9
+            th 10
+            th 11
+            th 12
+            th 13
+            th 14
+            th 15
+            th 16
+        tbody
+          tr
+            td=name
+            each sub in num
+              if sub.Attend=="0"
+                td="출"
+              else if sub.Attend=="1"
+                td="조"
+              else if sub.Attend=="2"
+                td="결"
+              else
+                td="-"
+
+
+    a(href='/attend') 뒤로가기

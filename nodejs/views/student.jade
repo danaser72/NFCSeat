@@ -1,0 +1,42 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title NFCSeat
+  body
+  form(method='post')
+    -var subject=num
+    -var username=usernames
+    table#subject(border='1')
+      thread
+        tr: th 학생명
+            th 1
+            th 2
+            th 3
+            th 4
+            th 5
+            th 6
+            th 7
+            th 8
+            th 9
+            th 10
+            th 11
+            th 12
+            th 13
+            th 14
+            th 15
+            th 16
+        tbody
+          each nm,i in usernames
+            tr
+            td=nm.Name
+              each temp in subject
+                td
+                  input(type='number', value=temp[i].Attend, min="0", max="3", name='attend', size='1px', maxlength='1')
+
+    br
+    input(type='submit', value="수정")
+    p
+    | 0: 출석 / 1: 지각 / 2: 결석 / 3: -
+    p
+    a(href='/prof') 뒤로가기
